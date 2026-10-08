@@ -1,4 +1,4 @@
-
+/* Estilos generales del cuerpo */
 body {
     background-color: black;
     color: white;
@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-
+/* Cabecera con logo y menú */
 header {
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header {
     height: auto;
 }
 
-
+/* Botones de navegación */
 .boton-nav {
     text-decoration: none;
     color: black;
@@ -31,43 +31,48 @@ header {
     transition: background-color 0.3s ease;
 }
 
+/* Efecto hover en botones */
 .boton-nav:hover {
     background-color: white;
     color: black;
 }
 
+/* Botón activo */
 .boton-nav.activo {
     background-color: white;
     color: black;
 }
 
-
+/* Contenido principal */
 main {
     display: flex;
     gap: 20px;
     padding: 20px;
 }
 
+/* Barra lateral */
 aside {
     width: 25%;
     background-color: black;
     padding: 15px;
 }
 
+/* Sección principal */
 section {
+    color: black;
     width: 75%;
-    background-color: hotpink;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
 }
 
-
+/* Títulos */
 h2 {
     text-align: center;
-    color: white;
+    color: black;
 }
 
-
+/* Galería de fichas */
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +80,7 @@ h2 {
     gap: 20px;
 }
 
+/* Fichas de animales */
 .ficha {
     background-color: white;
     color: black;
@@ -86,6 +92,7 @@ h2 {
     transition: transform 0.3s ease;
 }
 
+/* Animación al pasar el mouse */
 .ficha:hover {
     transform: scale(1.05);
 }
@@ -95,7 +102,7 @@ h2 {
     border-radius: 10px;
 }
 
-
+/* Listas de donaciones */
 ul {
     background-color: white;
     color: black;
@@ -103,10 +110,10 @@ ul {
     border-radius: 10px;
 }
 
-
+/* Pie de página */
 footer {
-    background-color: black;
+    background-color: hotpink;
     text-align: center;
     padding: 20px;
-    color: white;
+    color: black;
 }
